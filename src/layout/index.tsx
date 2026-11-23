@@ -1,7 +1,5 @@
 import { lazy, Suspense, useEffect, useRef } from "react";
 import { Link, Outlet, useLocation } from "react-router-dom";
-import { AuthorContact } from "@/components/author-contact";
-import { GithubLink, repositoryUrl } from "@/components/github-link";
 import { HomePageSkeleton } from "@/components/home-page-skeleton";
 import { IpSearch } from "@/components/ip-search";
 import { LanguageSelect } from "@/components/language-select";
