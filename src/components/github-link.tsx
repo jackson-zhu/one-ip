@@ -9,7 +9,7 @@ export function GithubLink() {
       asChild
       variant="ghost"
       size="icon"
-      className="size-8 rounded-full text-muted-foreground md:size-9 md:rounded-lg"
+      className="size-8 rounded-full text-muted-foreground md:size-9 md:rounded-lg hidden"
     >
       <a
         href={repositoryUrl}
