@@ -136,6 +136,7 @@ export function AppLayout() {
               href="https://huzhihui.com/blog/one-ip-guide"
               target="_blank"
               rel="noopener noreferrer"
+              className="hidden"
             >
               {t("navigation.documentation")}
             </a>
@@ -154,7 +155,7 @@ export function AppLayout() {
               href={repositoryUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="align-middle"
+              className="align-middle hidden"
             >
               GitHub
             </a>
@@ -165,7 +166,10 @@ export function AppLayout() {
           </UnderlineHover>{" "}
           ·{" "}
           <UnderlineHover asChild>
-            <a href="https://ipbot.net">
+            <a 
+              href="https://ipbot.net"
+              className="hidden"
+            >
               {t("navigation.commercialProjectExample")}
             </a>
           </UnderlineHover>
