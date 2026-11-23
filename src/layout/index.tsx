@@ -78,7 +78,6 @@ export function AppLayout() {
             <PrivacyToggle iconOnly />
             <LanguageSelect />
             <ThemeToggleButton className="size-8 rounded-full text-muted-foreground" />
-            <GithubLink />
           </div>
         </header>
         <nav
@@ -104,7 +103,6 @@ export function AppLayout() {
             <PrivacyToggle iconOnly />
             <LanguageSelect />
             <ThemeToggleButton className="size-9 shrink-0 rounded-lg text-muted-foreground" />
-            <GithubLink />
           </div>
         </nav>
         <main className="outline-none">
