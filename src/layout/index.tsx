@@ -132,47 +132,12 @@ export function AppLayout() {
         <footer className="max-w-full overflow-x-auto pt-[30px] pb-5 text-center text-[0.82rem] whitespace-nowrap text-subtle max-sm:pt-5 max-sm:pb-4 max-sm:text-left max-sm:text-[0.75rem] max-sm:[-webkit-overflow-scrolling:touch]">
           © {currentYear} IP ·{" "}
           <UnderlineHover asChild>
-            <a
-              href="https://huzhihui.com/blog/one-ip-guide"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hidden"
-            >
-              {t("navigation.documentation")}
-            </a>
-          </UnderlineHover>{" "}
-          ·{" "}
-          <UnderlineHover asChild>
             <Link to="/terms">{t("policy.terms")}</Link>
           </UnderlineHover>{" "}
           ·{" "}
           <UnderlineHover asChild>
             <Link to="/privacy">{t("policy.privacy")}</Link>
           </UnderlineHover>{" "}
-          ·{" "}
-          <UnderlineHover asChild>
-            <a
-              href={repositoryUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="align-middle hidden"
-            >
-              GitHub
-            </a>
-          </UnderlineHover>{" "}
-          ·{" "}
-          <UnderlineHover asChild>
-            <AuthorContact />
-          </UnderlineHover>{" "}
-          ·{" "}
-          <UnderlineHover asChild>
-            <a 
-              href="https://ipbot.net"
-              className="hidden"
-            >
-              {t("navigation.commercialProjectExample")}
-            </a>
-          </UnderlineHover>
         </footer>
       </div>
       <aside
