@@ -83,7 +83,7 @@ export default function PolicyPage({ page }: { page: "terms" | "privacy" }) {
           <p className="text-sm leading-6 text-muted-foreground">{body}</p>
         </ToolCard>
       ))}
-      {/* <ToolCard title={t("policy.contactAuthor")}>
+      <ToolCard title={t("policy.contactAuthor")}>
         <p className="mb-2 text-sm text-muted-foreground">
           {t("policy.tsx.questionsAboutSiteUsagePrivacyContactAuthorEmail")}
         </p>
@@ -98,7 +98,7 @@ export default function PolicyPage({ page }: { page: "terms" | "privacy" }) {
             {t("sites.wechat")}
           </AuthorContact>
         </div>
-      </ToolCard> */}
+      </ToolCard>
     </div>
   );
 }
